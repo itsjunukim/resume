@@ -44,7 +44,7 @@
   ]
 }
 
-#v(1em)
+#v(5em)
 #align(center)[
   #text(size: 12pt, weight: "medium", style: "italic")[
     "Solving business problems with solid engineering capabilities."
@@ -55,7 +55,7 @@
   ]
 ]
 
-#v(15em)
+#v(10em)
 #align(center)[ #text(size: 16pt, weight: "bold", fill: rgb("#333333"))[Project Highlights] ]
 #v(1em)
 #grid(
@@ -66,8 +66,9 @@
   toc-card("JSM 기반 ITSM 시스템 구축", "DevOps Pipeline & Cloud Native", <jsm>, rgb("#2684FF")),
   toc-card("CentOS EOL 대응 전략", "Hybrid Migration (Rocky & SUSE)", <centos>, rgb("#FCC624")),
   toc-card("GenAI 비용 분석 챗봇 구축", "AWS Bedrock & Serverless", <genai>, rgb("#FF9900")),
-  toc-card("외국어교육플랫폼 비용 최적화", "Cost Optimization & Scheduling", <caihong>, rgb("#E34F26")),  
+  toc-card("외국어교육플랫폼 비용 최적화", "Cost Optimization & Scheduling", <caihong>, rgb("#E34F26")),
   toc-card("통신사 코어 시스템 마이그레이션", "Legacy Modernization & HA", <uangel>, rgb("#7B42BC")),
+
 )
 #v(2em)
 
@@ -104,13 +105,13 @@
   ]
 ]
 
-#align(left)[
+#align(center)[
   #image("ndrs_cost_trend.png", width: 80%)
   #v(-1em)
   #text(size: 7pt, style: "italic")[Figure 1. 월별 클라우드 비용 추이(25년 5월 오픈 후 우하향 추세 확인)]
 ]
 #v(1em)
-#align(left)[
+#align(center)[
   #image("ndrs_timeline.png", width: 80%)
   #v(-1em)
   #text(size: 7pt, style: "italic")[Figure 2. FinOps 실행 타임라인]
@@ -154,7 +155,7 @@
   ]
 ]
 
-#align(left)[
+#align(center)[
   #image("windows server jira.png", width: 70%)
   
   #text(size: 7pt, style: "italic")[Figure 1. Jira를 활용한 마이그레이션 WBS 및 마일스톤 관리]
@@ -201,7 +202,7 @@
   ]
 ]
 
-#align(left)[
+#align(center)[
   #image("JSM Jenkins.png", width: 80%)
   #v(-0.5em)
   #text(size: 7pt, style: "italic")[Figure 1. Serverless CI/CD Architecture on AWS Fargate managed by Terraform]
@@ -246,7 +247,7 @@
       - 2027년까지 총 7차수에 걸친 단계적 Rocky Linux 전환 로드맵을 수립하고 Jira를 통해 일정 및 이슈 관리하여 3차 마이그레이션까지 성공적으로 완료
   ]
   
-    #align(left)[
+    #align(center)[
       #block(
         fill: rgb("#f0f8ff"), // 아주 연한 파란색 배경 (AliceBlue)
         stroke: (left: 4pt + blue), // 왼쪽에 파란색 강조선
@@ -265,7 +266,7 @@
     ]  
 ]
 
-#align(left)[
+#align(center)[
   #image("SUSE Global Recognition.png", width: 70%)
   
   #text(size: 7pt, style: "italic")[Figure 1. SUSE 공식 홈페이지에 등재된 CentOS EOL 대응 성공사례 인터뷰 발췌]
@@ -307,7 +308,7 @@
 ]
 
 #v(2em)
-#align(left)[
+#align(center)[
   #image("Serverless GenAI Agent Architecture.png", width: 70%)
   
   #text(size: 7pt, style: "italic")[Figure 1. Serverless GenAI Agent Architecture]
@@ -348,13 +349,13 @@
   ]
 ]
 
-#align(left)[
+#align(center)[
   #image("caihong_cost_trend.png", width: 80%)
   #v(-0.5em)
   #text(size: 7pt, style: "italic")[Figure 1. 비용 절감 및 사용량 추이(24년 11월 FinOps 착수 후 우하향 추세 확인)]
 ]
 #v(1em)
-#align(left)[
+#align(center)[
   #image("caihong_timeline.png", width: 80%)
   #v(-0.5em)
   #text(size: 7pt, style: "italic")[Figure 2. FinOps 실행 타임라인]
