@@ -49,9 +49,9 @@ to your project folder if you use the Typst web app.
         #highlight["단단한 엔지니어링 역량으로 비즈니스 문제를 해결하는 Cloud & DevOps 전문가"]
       ])
       
-      12년간 통신사 코어망부터 퍼블릭 클라우드까지 다양한 환경을 경험하며 시스템의 구조적 문제를 해결해왔습니다. 노후 인프라의 클라우드 전환과 컨테이너 기반 환경 구축을 주도하였으며 데이터 기반의 리소스 분석을 통해 58%의 비용 절감 성과를 달성했습니다.
+      12년간 통신사 코어망부터 퍼블릭 클라우드까지 다양한 환경을 경험하며 시스템의 구조적 문제를 해결해왔습니다. 노후 인프라의 클라우드 전환과 컨테이너 기반 환경 구축을 주도하였으며 데이터 기반의 리소스 분석을 통해 최대 58%의 비용 절감 성과를 달성했습니다.
 
-    기술적 이상과 비즈니스 현실 사이의 균형 잡힌 아키텍처 설계를 지향하며 현재는 GenAI 기술 도입을 통해 조직의 일하는 방식을 혁신하는 데 관심을 두고 있습니다.
+      기술적 이상과 비즈니스 현실 사이의 균형 잡힌 아키텍처 설계를 지향하며 현재는 GenAI를 통해 조직의 일하는 방식을 혁신하는데 관심을 가지고 있습니다.
     ]
 
     #sidebar-section(title: "Technical skills")[
@@ -140,15 +140,15 @@ main-content: [
           (icon: "infinity", text: [*외국어 교육 플랫폼 인프라 DevOps 운영*
           - AWS EKS 기반 MSA 워크로드 운영 및 트러블 슈팅을 전담하여 가용성 확보
           - Jenkins 및 ArgoCD를 활용한 정기/비정기 배포 파이프라인 관리 및 배포 프로세스 최적화
-          - 실시간 모니터링(Datadog, Cloudwatch) 및 로그 분석을 통한 서비스 장애 사전 감지 및 신속 복구 체계 확립]),  
+          - #text(tracking: -0.1pt)[실시간 모니터링(Datadog, Cloudwatch) 및 로그 분석을 통한 서비스 장애 사전 감지 및 신속 복구 체계 확립]]),  
           (icon: "robot", text: [*GenAI 기반 사내 비용 분석 챗봇 구축*
             - AWS Bedrock을 활용한 자연어 기반 비용 분석 도구 자체 개발 및 \$40,000 크레딧 확보]),
           (icon: "shield-halved", text: [*노후 인프라 리스크 관리*
-          - CentOS EOL 도래 서버 233대에 대한 하이브리드 마이그레이션 전략으로 보안 취약점 및 ISMS 인증취소 리스크 해소
+          - #text(tracking: -0.2pt)[CentOS EOL 도래 서버 233대에 대한 하이브리드 마이그레이션 전략으로 보안 취약점 및 ISMS 인증취소 리스크 해소]
           - Windows Server 189대 전수 조사 기반, 노후 서버 90대 업그레이드 및 VM 재배치를 통해 인프라 건전성 확보]),
             (icon: "list-check", text: [*전사 ITSM 체계 고도화 및 프로세스 표준화*
           - 노후화된 사내 형상 관리 시스템을 SaaS 기반의 JSM 표준 프로세스로 통합 및 대개체 완수
-          - 중앙 집중형 Jenkins 서버 구축 및 Bitbucket/ArgoCD 파이프라인 연동을 통해 CI/CD 배포 프로세스 일원화
+          - #text(tracking: -0.5pt)[중앙 집중형 Jenkins 서버 구축 및 Bitbucket/ArgoCD 파이프라인 연동을 통해 CI/CD 배포 프로세스 일원화]
           - 현업, 서비스 PI, 개발자 간의 소통 채널을 단일화하여 조직 생산성 향상 및 협업 효율 개선]),
             (icon: "lock", text: [*ISMS 인증 심사 대응 및 취약점 조치*
           - ISMS 인증 유지를 위한 인프라 취약점 진단 및 보안 패치 스케줄링]),
@@ -174,10 +174,10 @@ main-content: [
             #text(tracking: -0.5pt)[
             - 지능망 서비스 통합 프로젝트의 메인 엔지니어로 참여하여 이기종 DB 및 서비스 마이그레이션 설계 및 수행]
             - SIPP 시뮬레이터를 활용한 CallFlow 검증
-            - 1,000만 건 이상의 가입자 DB 무중단 이관 달성]),
+            - 1,000만 건 이상의 가입자 DB 무중단 마이그레이션 달성]),
             (icon: "server", text: [*삼성SDS 레거시 시스템 현대화*
-            - NPDB(번호이동성 DB) 노후 장비 및 OS 환경 재구성 작업 수행, 2,000만 건 대용량 DB 마이그레이션 완료
-            - 120개 부하 테스트 시나리오 검증을 통해 컷오버(Cut-over) 후 장애 발생 0건 기록]),
+            #text(tracking: -0.5pt)[- NPDB(번호이동성 DB) 노후 장비 및 OS 환경 재구성 작업 수행, 2,000만 건 대용량 DB 마이그레이션 완료]
+            - 120개 부하 테스트 시나리오 검증을 통해 Cut-over 이후 장애 발생 0건 기록]),
           ))
           
           *System Engineer (2013.09 --- 2018.12 | 사원 \~ 대리)*
@@ -185,18 +185,17 @@ main-content: [
           #v(-0.3em)
           #icon-list((
             (icon: "signal", text: [*SK Telecom 로밍 한도 요금제 구축 및 연동*
-            #text(tracking: -0.3pt)[
-            - 해외 통신사(Docomo, Softbank)와의 연동 테스트 및 SIP/Diameter 프로토콜 정합성 검증 지원
-            - 180여 가지 Call 시나리오 테스트를 통해 국제 로밍 서비스 결함 3건 사전 발견 및 조치]]),
+            - 해외 통신사(Docomo, Softbank)와 현지 연동 테스트 및 SIP/Diameter 프로토콜 정합성 검증 지원
+            - 180여 가지 Call 시나리오 테스트를 통해 국제 로밍 서비스 결함 3건 사전 발견 및 조치]),
             (icon: "terminal", text: [*대용량 트래픽 처리 시스템 운영*
-            #text(tracking: -0.3pt)[
-            - 30여 식의 Mission-Critical한 Linux 기반 상용망 서버 운영 (OS 패치, 커널 튜닝, 보안 취약점 조치)
-            - Wireshark 패킷 분석 및 시스템 로그 분석을 통한 트러블 슈팅 전담]]),
+            #text(tracking: -0.5pt)[
+            - 30여 식의 Mission-Critical한 Linux 기반 상용망 서버 운영 (솔루션 패치 및 검증, OS 패치, 보안 취약점 조치)]
+            - Wireshark 패킷 분석 및 시스템 로그 분석을 통한 트러블 슈팅 전담]),
           ))
         ],
       )
     ]
-    #v(-1.5em)
+    #v(-1.0em)
     #section-with-line("Certification")[
       #let certs = (
         (title: "AWS Certified Solutions Architect - Professional", year: "2025.03", issuer: "AWS"),
