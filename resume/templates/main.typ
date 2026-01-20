@@ -38,6 +38,7 @@ to your project folder if you use the Typst web app.
     #contact-list((
       (icon: "at", icon-solid: true, text: link("mailto:gazi6024@gmail.com")[gazi6024\@gmail.com]),
       (icon: "linkedin", text: link("https://www.linkedin.com/in/junu-kim-087a39365/")[linkedin.com/in/junu-kim]),
+      (icon: "github", text: link("https://github.com/itsjunukim")[github.com/itsjunukim]),
       (icon: "phone", text: "010-4243-4994"),
     ))
 
